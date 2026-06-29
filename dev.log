@@ -1,0 +1,61 @@
+
+> applaunch3d@1.0.0 dev
+> next dev --port 3001
+
+  ▲ Next.js 14.2.29
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1231ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.9s (2113 modules)
+ ⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at eval (./src/lib/supabase.ts:11:118)
+    at (ssr)/./src/lib/supabase.ts (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:272:1)
+    at __webpack_require__ (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/context/AuthContext.tsx:10:71)
+    at (ssr)/./src/context/AuthContext.tsx (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:250:1)
+    at __webpack_require__ (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/components/ui/Navbar.tsx:12:78)
+    at (ssr)/./src/components/ui/Navbar.tsx (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:217:1)
+    at __webpack_require__ (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/app/page.tsx:8:79)
+    at (ssr)/./src/app/page.tsx (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:107:1)
+    at Object.__webpack_require__ [as require] (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+digest: "3434403146"
+ GET / 500 in 4068ms
+ ✓ Compiled in 177ms (1062 modules)
+ ⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at eval (./src/lib/supabase.ts:11:118)
+    at (ssr)/./src/lib/supabase.ts (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:272:1)
+    at __webpack_require__ (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/context/AuthContext.tsx:10:71)
+    at (ssr)/./src/context/AuthContext.tsx (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:250:1)
+    at __webpack_require__ (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/components/ui/Navbar.tsx:12:78)
+    at (ssr)/./src/components/ui/Navbar.tsx (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:217:1)
+    at __webpack_require__ (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/app/page.tsx:8:79)
+    at (ssr)/./src/app/page.tsx (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:107:1)
+    at Object.__webpack_require__ [as require] (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+digest: "3434403146"
+ GET / 500 in 112ms
+ ⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at eval (./src/lib/supabase.ts:11:118)
+    at (ssr)/./src/lib/supabase.ts (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:272:1)
+    at __webpack_require__ (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/context/AuthContext.tsx:10:71)
+    at (ssr)/./src/context/AuthContext.tsx (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:250:1)
+    at __webpack_require__ (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/components/ui/Navbar.tsx:12:78)
+    at (ssr)/./src/components/ui/Navbar.tsx (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:217:1)
+    at __webpack_require__ (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/app/page.tsx:8:79)
+    at (ssr)/./src/app/page.tsx (C:\Users\athar\Desktop\New folder (3)\.next\server\app\page.js:107:1)
+    at Object.__webpack_require__ [as require] (C:\Users\athar\Desktop\New folder (3)\.next\server\webpack-runtime.js:33:42)
+digest: "3434403146"
+ GET / 500 in 84ms
+ ✓ Compiled in 286ms (2090 modules)
+ GET / 200 in 176ms
+ GET / 200 in 62ms
